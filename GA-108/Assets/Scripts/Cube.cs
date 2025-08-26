@@ -34,5 +34,6 @@ public class Cube : MonoBehaviour
     {
         effect.SetActive(true);
         target.SetActive(false);
+        Destroy(gameObject);
     }
 }
